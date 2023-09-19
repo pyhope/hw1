@@ -5,16 +5,15 @@
   <i name="version" type="string">6.3.2  </i>
   <i name="subversion" type="string">27Jun22 (build Oct 19 2022 15:35:57) gamma-only                       parallel </i>
   <i name="platform" type="string">LinuxIFC </i>
-  <i name="date" type="string">2023 09 18 </i>
-  <i name="time" type="string">22:59:20 </i>
+  <i name="date" type="string">2023 09 19 </i>
+  <i name="time" type="string">17:55:17 </i>
  </generator>
  <incar>
   <i type="string" name="PREC">Normal</i>
   <i type="int" name="IBRION">     1</i>
   <i type="int" name="NFREE">     2</i>
   <i name="EDIFFG">     -0.02000000</i>
-  <i type="int" name="NSW">    10</i>
-  <i name="ENMAX">    400.00000000</i>
+  <i type="int" name="NSW">    20</i>
   <i name="ENCUT">    400.00000000</i>
   <i type="int" name="ISMEAR">     0</i>
   <i name="SIGMA">      0.10000000</i>
@@ -167,7 +166,7 @@
    <i type="logical" name="ADDGRID"> F  </i>
   </separator>
   <separator name="ionic" >
-   <i type="int" name="NSW">    10</i>
+   <i type="int" name="NSW">    20</i>
    <i type="int" name="IBRION">     1</i>
    <i type="int" name="MDALGO">     0</i>
    <i type="int" name="ISIF">     2</i>
@@ -182,7 +181,7 @@
    <i name="TEBEG">      0.00010000</i>
    <i name="TEEND">      0.00010000</i>
    <i type="int" name="NBLOCK">     1</i>
-   <i type="int" name="KBLOCK">    10</i>
+   <i type="int" name="KBLOCK">    20</i>
    <i type="int" name="NPACO">   256</i>
    <i name="APACO">     10.00000000</i>
   </separator>
@@ -434,7 +433,7 @@
  <calculation>
   <scstep>
    <time name="dav">    0.05    0.05</time>
-   <time name="total">    0.23    0.24</time>
+   <time name="total">    0.22    0.22</time>
    <energy>
     <i name="alphaZ">      0.44832783 </i>
     <i name="ewald">     26.60306768 </i>
@@ -460,8 +459,8 @@
    </energy>
   </scstep>
   <scstep>
-   <time name="dav">    0.03    0.03</time>
-   <time name="total">    0.03    0.03</time>
+   <time name="dav">    0.04    0.04</time>
+   <time name="total">    0.04    0.04</time>
    <energy>
     <i name="e_fr_energy">    -15.74979015 </i>
     <i name="e_wo_entrp">    -15.74979015 </i>
@@ -479,7 +478,7 @@
   </scstep>
   <scstep>
    <time name="dav">    0.05    0.05</time>
-   <time name="total">    0.09    0.09</time>
+   <time name="total">    0.08    0.08</time>
    <energy>
     <i name="e_fr_energy">    -16.31540359 </i>
     <i name="e_wo_entrp">    -16.31540359 </i>
@@ -487,8 +486,8 @@
    </energy>
   </scstep>
   <scstep>
-   <time name="dav">    0.04    0.04</time>
-   <time name="total">    0.24    0.25</time>
+   <time name="dav">    0.05    0.05</time>
+   <time name="total">    0.25    0.25</time>
    <energy>
     <i name="e_fr_energy">    -14.37043364 </i>
     <i name="e_wo_entrp">    -14.37043364 </i>
@@ -497,7 +496,7 @@
   </scstep>
   <scstep>
    <time name="dav">    0.06    0.06</time>
-   <time name="total">    0.22    0.22</time>
+   <time name="total">    0.26    0.26</time>
    <energy>
     <i name="e_fr_energy">    -14.26215492 </i>
     <i name="e_wo_entrp">    -14.26215492 </i>
@@ -506,7 +505,7 @@
   </scstep>
   <scstep>
    <time name="dav">    0.05    0.05</time>
-   <time name="total">    0.20    0.20</time>
+   <time name="total">    0.22    0.22</time>
    <energy>
     <i name="e_fr_energy">    -14.18492171 </i>
     <i name="e_wo_entrp">    -14.18492171 </i>
@@ -515,7 +514,7 @@
   </scstep>
   <scstep>
    <time name="dav">    0.05    0.05</time>
-   <time name="total">    0.20    0.20</time>
+   <time name="total">    0.22    0.23</time>
    <energy>
     <i name="e_fr_energy">    -14.18960102 </i>
     <i name="e_wo_entrp">    -14.18960102 </i>
@@ -524,7 +523,7 @@
   </scstep>
   <scstep>
    <time name="dav">    0.04    0.04</time>
-   <time name="total">    0.19    0.20</time>
+   <time name="total">    0.20    0.20</time>
    <energy>
     <i name="e_fr_energy">    -14.19806085 </i>
     <i name="e_wo_entrp">    -14.19806085 </i>
@@ -533,7 +532,7 @@
   </scstep>
   <scstep>
    <time name="dav">    0.04    0.04</time>
-   <time name="total">    0.19    0.19</time>
+   <time name="total">    0.20    0.20</time>
    <energy>
     <i name="e_fr_energy">    -14.20517685 </i>
     <i name="e_wo_entrp">    -14.20517685 </i>
@@ -542,7 +541,7 @@
   </scstep>
   <scstep>
    <time name="dav">    0.06    0.06</time>
-   <time name="total">    0.21    0.21</time>
+   <time name="total">    0.21    0.22</time>
    <energy>
     <i name="e_fr_energy">    -14.20623266 </i>
     <i name="e_wo_entrp">    -14.20623266 </i>
@@ -551,7 +550,7 @@
   </scstep>
   <scstep>
    <time name="dav">    0.05    0.05</time>
-   <time name="total">    0.20    0.20</time>
+   <time name="total">    0.21    0.22</time>
    <energy>
     <i name="e_fr_energy">    -14.20733669 </i>
     <i name="e_wo_entrp">    -14.20733669 </i>
@@ -560,7 +559,7 @@
   </scstep>
   <scstep>
    <time name="dav">    0.06    0.06</time>
-   <time name="total">    0.21    0.21</time>
+   <time name="total">    0.22    0.22</time>
    <energy>
     <i name="e_fr_energy">    -14.20743775 </i>
     <i name="e_wo_entrp">    -14.20743775 </i>
@@ -569,7 +568,7 @@
   </scstep>
   <scstep>
    <time name="dav">    0.06    0.06</time>
-   <time name="total">    0.21    0.21</time>
+   <time name="total">    0.22    0.22</time>
    <energy>
     <i name="e_fr_energy">    -14.20756151 </i>
     <i name="e_wo_entrp">    -14.20756151 </i>
@@ -577,8 +576,8 @@
    </energy>
   </scstep>
   <scstep>
-   <time name="dav">    0.04    0.04</time>
-   <time name="total">    0.17    0.17</time>
+   <time name="dav">    0.05    0.05</time>
+   <time name="total">    0.19    0.19</time>
    <energy>
     <i name="alphaZ">      0.44832783 </i>
     <i name="ewald">     26.60306768 </i>
@@ -629,12 +628,12 @@
    <i name="e_wo_entrp">    -14.20756980 </i>
    <i name="e_0_energy">    -14.20756980 </i>
   </energy>
-  <time name="totalsc">    3.49    3.52</time>
+  <time name="totalsc">    3.66    3.69</time>
  </calculation>
  <calculation>
   <scstep>
-   <time name="dav">    0.04    0.04</time>
-   <time name="total">    0.20    0.20</time>
+   <time name="dav">    0.05    0.05</time>
+   <time name="total">    0.22    0.22</time>
    <energy>
     <i name="alphaZ">      0.44832783 </i>
     <i name="ewald">     18.18553526 </i>
@@ -651,8 +650,8 @@
    </energy>
   </scstep>
   <scstep>
-   <time name="dav">    0.05    0.05</time>
-   <time name="total">    0.20    0.20</time>
+   <time name="dav">    0.06    0.06</time>
+   <time name="total">    0.21    0.21</time>
    <energy>
     <i name="e_fr_energy">    -14.19092771 </i>
     <i name="e_wo_entrp">    -14.19092771 </i>
@@ -661,7 +660,7 @@
   </scstep>
   <scstep>
    <time name="dav">    0.06    0.06</time>
-   <time name="total">    0.21    0.21</time>
+   <time name="total">    0.22    0.22</time>
    <energy>
     <i name="e_fr_energy">    -14.19040787 </i>
     <i name="e_wo_entrp">    -14.19040787 </i>
@@ -669,8 +668,8 @@
    </energy>
   </scstep>
   <scstep>
-   <time name="dav">    0.05    0.05</time>
-   <time name="total">    0.20    0.20</time>
+   <time name="dav">    0.06    0.06</time>
+   <time name="total">    0.21    0.21</time>
    <energy>
     <i name="e_fr_energy">    -14.19052633 </i>
     <i name="e_wo_entrp">    -14.19052633 </i>
@@ -678,8 +677,8 @@
    </energy>
   </scstep>
   <scstep>
-   <time name="dav">    0.05    0.05</time>
-   <time name="total">    0.20    0.20</time>
+   <time name="dav">    0.06    0.06</time>
+   <time name="total">    0.19    0.19</time>
    <energy>
     <i name="alphaZ">      0.44832783 </i>
     <i name="ewald">     18.18553526 </i>
@@ -730,12 +729,12 @@
    <i name="e_wo_entrp">    -14.19054804 </i>
    <i name="e_0_energy">    -14.19054804 </i>
   </energy>
-  <time name="totalsc">    1.25    1.26</time>
+  <time name="totalsc">    1.33    1.34</time>
  </calculation>
  <calculation>
   <scstep>
-   <time name="dav">    0.04    0.04</time>
-   <time name="total">    0.18    0.18</time>
+   <time name="dav">    0.03    0.03</time>
+   <time name="total">    0.19    0.19</time>
    <energy>
     <i name="alphaZ">      0.44832783 </i>
     <i name="ewald">     22.82393984 </i>
@@ -752,8 +751,8 @@
    </energy>
   </scstep>
   <scstep>
-   <time name="dav">    0.05    0.05</time>
-   <time name="total">    0.20    0.20</time>
+   <time name="dav">    0.04    0.04</time>
+   <time name="total">    0.19    0.19</time>
    <energy>
     <i name="e_fr_energy">    -14.22363606 </i>
     <i name="e_wo_entrp">    -14.22363606 </i>
@@ -761,8 +760,8 @@
    </energy>
   </scstep>
   <scstep>
-   <time name="dav">    0.04    0.04</time>
-   <time name="total">    0.20    0.20</time>
+   <time name="dav">    0.05    0.05</time>
+   <time name="total">    0.23    0.23</time>
    <energy>
     <i name="e_fr_energy">    -14.22348331 </i>
     <i name="e_wo_entrp">    -14.22348331 </i>
@@ -770,8 +769,8 @@
    </energy>
   </scstep>
   <scstep>
-   <time name="dav">    0.04    0.04</time>
-   <time name="total">    0.20    0.20</time>
+   <time name="dav">    0.03    0.03</time>
+   <time name="total">    0.17    0.17</time>
    <energy>
     <i name="alphaZ">      0.44832783 </i>
     <i name="ewald">     22.82393984 </i>
@@ -822,7 +821,7 @@
    <i name="e_wo_entrp">    -14.22353754 </i>
    <i name="e_0_energy">    -14.22353754 </i>
   </energy>
-  <time name="totalsc">    1.06    1.06</time>
+  <time name="totalsc">    1.05    1.05</time>
  </calculation>
  <calculation>
   <scstep>
@@ -844,8 +843,8 @@
    </energy>
   </scstep>
   <scstep>
-   <time name="dav">    0.05    0.05</time>
-   <time name="total">    0.20    0.20</time>
+   <time name="dav">    0.04    0.04</time>
+   <time name="total">    0.18    0.18</time>
    <energy>
     <i name="alphaZ">      0.44832783 </i>
     <i name="ewald">     23.18545586 </i>
@@ -896,7 +895,7 @@
    <i name="e_wo_entrp">    -14.22370710 </i>
    <i name="e_0_energy">    -14.22370710 </i>
   </energy>
-  <time name="totalsc">    0.64    0.64</time>
+  <time name="totalsc">    0.62    0.63</time>
   <eigenvalues>
    <array>
     <dimension dim="1">band</dimension>
