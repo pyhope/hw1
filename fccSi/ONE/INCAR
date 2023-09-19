@@ -1,0 +1,11 @@
+general:
+ System = fcc Si
+ ISTART = 0
+ ICHARG = 2
+ ENCUT  = 240
+ ISMEAR = 0
+ SIGMA  = 0.1
+ NSW    = 20
+ IBRION = 2
+ ISIF   = 7
+ EDIFF  = -0.0001
